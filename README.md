@@ -20,13 +20,13 @@ It generates a simple report to check the system’s performance and status.
 sudo apt update
 sudo apt install git -y
 
-3.Clone the repository - "git clone https://github.com/ANUSHKA-2006-png/Simple-System-Health-Report.git"
+3. Clone the repository - "git clone https://github.com/ANUSHKA-2006-png/Simple-System-Health-Report.git"
 
-4.Go to the project folder - "cd Simple-System-Health-Report"
+4. Go to the project folder - "cd Simple-System-Health-Report"
 
-5.Make the Bash script executable - "chmod +x SSHR"
+5. Make the Bash script executable - "chmod +x SSHR"
 
-6.Run the script - "./SSHR"
+6. Run the script - "./SSHR"
 - The script will display CPU, memory, and disk usage.
 - If the script generates a report, check the folder for the output.
    
