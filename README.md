@@ -11,6 +11,11 @@ It generates a simple report to check the system’s performance and status.
 - UNIX/Linux Operating System(Ubuntu recommended)
 - Bash Shell
 
+## Files
+- `SSHR` : The Bash script
+- `Report` : Folder where output reports are saved
+- `LICENSE` : License information
+
 ## How to Run
 1. Open Terminal 
    Press Ctrl + Alt + T (Ubuntu) or open your Linux  terminal.
