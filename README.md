@@ -29,7 +29,9 @@ It generates a simple report to check the system’s performance and status.
      - cd Simple-System-Health-Report
      - chmod +x SSHR
      - ./SSHR
+   
    The script will display CPU, memory, and disk usage.
+   If the script generates a report, check the 'Report' folder for the output.
    
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
