@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "====================================="
+echo "     SIMPLE SYSTEM HEALTH REPORT     "
+echo "====================================="
+echo "Report generated on: $(date)"
+echo
+echo "CPU Usage:"
+top -bn1 | grep "Cpu(s)" | awk '{print "CPU Load: " $2 + $4 "%"}'
+echo
+echo "Memory Usage (Free/Total):"
+free -h | awk '/Mem:/ {print "Used: "$3" / Total: "$2" ("$3"/"$2")"}'
+echo
+echo "Disk Usage:"
+df -h --total | grep 'total' | awk '{print "Used: "$3" / Total: "$2" ("$5" used)"}'
+echo
+echo "System health report generated successfully!"
