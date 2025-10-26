@@ -13,7 +13,6 @@ It generates a simple report to check the system’s performance and status.
 
 ## Files
 - `SSHR` : The Bash script
-- `Report` : Folder where output reports are saved
 - `LICENSE` : License information
 
 ## How to Run
@@ -31,7 +30,6 @@ It generates a simple report to check the system’s performance and status.
      - ./SSHR
    
    The script will display CPU, memory, and disk usage.
-   If the script generates a report, check the 'Report' folder for the output.
    
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
