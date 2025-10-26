@@ -13,4 +13,4 @@ A Bash script that automatically generates a report of key system metrics, inclu
 ## How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/yourusername/Simple-System-Health-Report.git
+   git clone https://github.com/ANUSHKA-2006-png/Simple-System-Health-Report.git
