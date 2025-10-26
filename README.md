@@ -16,7 +16,6 @@ It generates a simple report to check the system’s performance and status.
    Press Ctrl + Alt + T (Ubuntu) or open your Linux  terminal.
 
 2. Install Git (if not installed)  
-```bash
      - sudo apt update
      - sudo apt install git -y
 
